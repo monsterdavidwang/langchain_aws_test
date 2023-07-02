@@ -4,7 +4,7 @@ from langchain.llms import OpenAI
 # import unstructured
 from langchain.document_loaders import UnstructuredPDFLoader
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "...your api key..."
 
 # #Load pdf file from AWS S3 bucket and extract plain text
 # loader = S3FileLoader("Your Bucket", "filename.pdf")
