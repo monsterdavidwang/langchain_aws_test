@@ -2,7 +2,7 @@
 
 You should install below library
 
-pip install langchain \n
+pip install langchain "\n"
 pip install openai
 pip install langchain[llms]
 pip install boto3
